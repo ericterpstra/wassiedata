@@ -2,11 +2,6 @@ const MongoClient = require("mongodb").MongoClient;
 const assert = require("assert");
 require("dotenv").config();
 
-/*
- * Requires the MongoDB Node.js Driver
- * https://mongodb.github.io/node-mongodb-native
- */
-
 const agg = [
   {
     $match: {
